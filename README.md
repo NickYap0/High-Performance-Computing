@@ -75,4 +75,4 @@ The repository include a Makefile we make ease when compiling the program. It al
 --dt 0.1 --T 80.0 --Nx 100 --Ny 100 --ic 1 --np 9 --calc 1
 ```
 
-where np sets the environment of the number of threads computing. 
+where $$--np 9$$ sets the environment of the number of threads computing. 
