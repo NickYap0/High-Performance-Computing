@@ -72,7 +72,7 @@ point is at $x = 99$, even though the domain is of length 100 in $x$. This is be
 The repository include a Makefile we make ease when compiling the program. It also incorporates parallelisation using openMP with highest level optimise -Wall -o3. A sample command line input is as such,
 
 ```command line
-export OMP_NUM_THREAD=8 ./main --dt 0.1 --T 80 --Nx 100 --Ny --100 --ic 4 --choice 1
+--dt 0.1 --T 80.0 --Nx 100 --Ny 100 --ic 1 --np 9 --calc 1
 ```
 
-where export OMP_NUM_THREAD=8 sets the environment of the number of threads computing. 
+where np sets the environment of the number of threads computing. 
